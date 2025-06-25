@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhesive Push-up Bra | Nyaman Tanpa Tali, Tetap Anggun</title>
+    <meta name="description" content="Tampil percaya diri dengan Adhesive Push-up Bra premium. Nyaman, tanpa tali, dengan perekat kuat untuk bentuk payudara alami. Cocok untuk gaun backless dan off-shoulder.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+        }
+        
+        .gold-text {
+            background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .floating-whatsapp {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .zoom-on-hover {
+            transition: transform 0.3s ease;
+        }
+        
+        .zoom-on-hover:hover {
+            transform: scale(1.05);
+        }
+        
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            transition: all 0.3s ease;
+        }
+        
+        .sticky-nav.scrolled {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .modal {
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .modal-content {
+            transition: transform 0.3s ease;
+        }
+        
+        .modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal.active .modal-content {
+            transform: translateY(0);
+        }
+        
+        .modal:not(.active) .modal-content {
+            transform: translateY(-20px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6285880343981" class="fixed bottom-8 right-8 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-xl floating-whatsapp z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav bg-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold gold-text heading-font">LUXEBRA</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-amber-600 transition">Fitur</a>
+                <a href="#gallery" class="hover:text-amber-600 transition">Galeri</a>
+                <a href="#testimonials" class="hover:text-amber-600 transition">Testimoni</a>
+                <a href="#faq" class="hover:text-amber-600 transition">FAQ</a>
+            </div>
+            <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="hidden md:block gold-gradient text-white px-6 py-2 rounded-full font-medium hover:opacity-90 transition">Beli Sekarang</a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white absolute top-full left-0 right-0 shadow-lg py-4 px-4">
+            <div class="flex flex-col space-y-4">
+                <a href="#features" class="hover:text-amber-600 transition">Fitur</a>
+                <a href="#gallery" class="hover:text-amber-600 transition">Galeri</a>
+                <a href="#testimonials" class="hover:text-amber-600 transition">Testimoni</a>
+                <a href="#faq" class="hover:text-amber-600 transition">FAQ</a>
+                <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="gold-gradient text-white px-6 py-2 rounded-full font-medium text-center hover:opacity-90 transition">Beli Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden">
+        <div class="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0 fade-in">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 heading-font">
+                    <span class="gold-text">Adhesive Push-up Bra</span><br>
+                    Nyaman Tanpa Tali, Tetap Anggun
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-gray-600">
+                    Tampil percaya diri tanpa tali bra yang mengganggu! Solusi praktis untuk gaun backless, off-shoulder, atau baju tanpa lengan.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="gold-gradient text-white px-8 py-4 rounded-full font-bold text-lg text-center hover:opacity-90 transition zoom-on-hover">
+                        Beli Sekarang - Rp159.000
+                    </a>
+                    <a href="#features" class="border-2 border-amber-500 text-amber-600 px-8 py-4 rounded-full font-bold text-lg text-center hover:bg-amber-50 transition zoom-on-hover">
+                        Pelajari Lebih Lanjut
+                    </a>
+                </div>
+                <div class="mt-8 flex items-center">
+                    <div class="flex -space-x-2">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                    </div>
+                    <div class="ml-4">
+                        <div class="flex items-center">
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="ml-2 text-gray-600">4.9 (1.2K+ reviews)</span>
+                        </div>
+                        <p class="text-sm text-gray-500">1.500+ wanita sudah membeli minggu ini</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 fade-in">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_8225671746185023893.png" alt="Adhesive Push-up Bra" class="rounded-lg shadow-xl w-full max-w-md mx-auto zoom-on-hover">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
+                        <div class="flex items-center">
+                            <div class="bg-amber-100 p-3 rounded-full">
+                                <i class="fas fa-check text-amber-600 text-xl"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="font-bold">Stok Terbatas!</p>
+                                <p class="text-sm text-gray-500">Tersisa 23 pcs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scarcity Banner -->
+        <div class="bg-amber-50 py-4">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center justify-center">
+                    <div class="flex items-center mb-2 md:mb-0">
+                        <i class="fas fa-exclamation-triangle text-amber-600 mr-2"></i>
+                        <span class="font-bold text-amber-800">PROMO HARI INI SAJA!</span>
+                    </div>
+                    <div class="md:ml-6 flex items-center">
+                        <span class="text-gray-700 mr-2">Berakhir dalam:</span>
+                        <div class="flex space-x-2" id="countdown">
+                            <div class="countdown-item px-3 py-1 rounded">
+                                <span class="font-bold text-amber-600" id="hours">12</span>
+                                <span class="text-xs text-gray-600">jam</span>
+                            </div>
+                            <div class="countdown-item px-3 py-1 rounded">
+                                <span class="font-bold text-amber-600" id="minutes">45</span>
+                                <span class="text-xs text-gray-600">menit</span>
+                            </div>
+                            <div class="countdown-item px-3 py-1 rounded">
+                                <span class="font-bold text-amber-600" id="seconds">30</span>
+                                <span class="text-xs text-gray-600">detik</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="ml-0 md:ml-6 mt-2 md:mt-0 text-amber-700 font-bold hover:underline">Beli Sekarang →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-8 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-amber-600 text-2xl mr-2"></i>
+                    <span>100% Original</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-truck text-amber-600 text-2xl mr-2"></i>
+                    <span>Gratis Ongkir</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-undo text-amber-600 text-2xl mr-2"></i>
+                    <span>Garansi 7 Hari</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-lock text-amber-600 text-2xl mr-2"></i>
+                    <span>Pembayaran Aman</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 heading-font">Kenapa Memilih <span class="gold-text">Adhesive Push-up Bra</span> Kami?</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Solusi sempurna untuk tampil percaya diri dengan gaya apa pun</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-heart text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Nyaman Sepanjang Hari</h3>
+                    <p class="text-gray-600 text-center">Bahan lembut dan ringan yang tidak meninggalkan bekas, membuat Anda nyaman dari pagi hingga malam.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-anchor text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Perekat Kuat & Aman</h3>
+                    <p class="text-gray-600 text-center">Didesain dengan sayap perekat yang kuat dan kait tengah untuk mengangkat dan membentuk payudara secara alami.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-tshirt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Serbaguna</h3>
+                    <p class="text-gray-600 text-center">Cocok untuk berbagai jenis pakaian: gaun backless, off-shoulder, atau baju tanpa lengan.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-recycle text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Bisa Dipakai Berulang</h3>
+                    <p class="text-gray-600 text-center">Perekat aman & tidak mudah lepas, bisa dipakai berulang kali dengan perawatan yang tepat.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-medal text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Kualitas Premium</h3>
+                    <p class="text-gray-600 text-center">Dibuat dengan material berkualitas tinggi yang tahan lama dan memberikan kenyamanan maksimal.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl product-card transition">
+                    <div class="gold-gradient w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-gem text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-center">Tampil Elegan</h3>
+                    <p class="text-gray-600 text-center">Memberikan bentuk alami dan mengangkat payudara tanpa terlihat seperti menggunakan bra.</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="gold-gradient text-white px-8 py-4 rounded-full font-bold text-lg inline-block hover:opacity-90 transition zoom-on-hover">
+                    Dapatkan Sekarang - Rp159.000
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 heading-font">Galeri <span class="gold-text">Produk</span></h2>
+                <p class="text-lg text-gray-600">Lihat bagaimana Adhesive Push-up Bra kami bisa meningkatkan gaya Anda</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_8225671746185023893.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_8225671746185023893.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_7564901746185025353.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_7564901746185025353.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_2976261746185025742.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_2976261746185025742.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_8225671746185023893.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_8225671746185023893.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_7564901746185025353.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_7564901746185025353.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg cursor-pointer" onclick="openModal('https://cdn.orderonline.id/uploads/images_2976261746185025742.png')">
+                    <img src="https://cdn.orderonline.id/uploads/images_2976261746185025742.png" alt="Adhesive Push-up Bra" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="gold-gradient text-white px-8 py-4 rounded-full font-bold text-lg inline-block hover:opacity-90 transition zoom-on-hover">
+                    Lihat Lebih Banyak
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 heading-font">Apa Kata <span class="gold-text">Pelanggan Kami?</span></h2>
+                <p class="text-lg text-gray-600">Dengar langsung dari wanita yang telah mencoba Adhesive Push-up Bra kami</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="ml-4">
+                            <h4 class="font-bold">Sarah Wijaya</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Saya sangat puas dengan bra ini! Nyaman dipakai seharian dan perekatnya sangat kuat. Gaun backless saya akhirnya bisa dipakai dengan percaya diri."</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="ml-4">
+                            <h4 class="font-bold">Dian Permata</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Bahan sangat lembut dan tidak menyebabkan iritasi. Saya sudah mencoba beberapa merek, tapi ini yang paling nyaman dan tahan lama."</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="ml-4">
+                            <h4 class="font-bold">Rina Hartono</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Push-up effectnya natural banget, tidak berlebihan. Sudah dipakai 5 kali dan perekat masih sangat kuat. Worth it banget untuk harganya!"</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="gold-gradient text-white px-8 py-4 rounded-full font-bold text-lg inline-block hover:opacity-90 transition zoom-on-hover">
+                    Bergabung dengan Pelanggan Puas Kami
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 heading-font">Pertanyaan <span class="gold-text">Yang Sering Diajukan</span></h2>
+                <p class="text-lg text-gray-600">Temukan jawaban untuk pertanyaan umum tentang produk kami</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left bg-white p-6 rounded-xl shadow-md hover:bg-gray-50 transition">
+                        <span class="font-bold">Bagaimana cara pemakaian Adhesive Push-up Bra ini?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-white p-6 rounded-b-xl">
+                        <p>1. Pastikan kulit bersih dan kering sebelum pemakaian<br>
+                        2. Lepaskan pelindung perekat<br>
+                        3. Tempelkan bra pada payudara, mulai dari bagian bawah dan tekan perlahan ke atas<br>
+                        4. Pastikan perekat menempel sempurna sebelum memakai baju</p>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left bg-white p-6 rounded-xl shadow-md hover:bg-gray-50 transition">
+                        <span class="font-bold">Berapa lama bra ini bisa bertahan?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-white p-6 rounded-b-xl">
+                        <p>Dengan perawatan yang tepat, Adhesive Push-up Bra kami bisa dipakai hingga 30-50 kali pemakaian. Setiap pemakaian bisa bertahan hingga 12 jam tergantung aktivitas.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left bg-white p-6 rounded-xl shadow-md hover:bg-gray-50 transition">
+                        <span class="font-bold">Bagaimana cara merawat dan membersihkannya?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-white p-6 rounded-b-xl">
+                        <p>1. Bersihkan dengan air hangat dan sabun lembut<br>
+                        2. Jangan menggunakan sikat atau bahan abrasif<br>
+                        3. Bilas hingga bersih dan keringkan dengan cara diangin-anginkan<br>
+                        4. Simpan di tempat kering dan sejuk, jauh dari sinar matahari langsung<br>
+                        5. Gunakan kembali pelindung perekat setelah dibersihkan</p>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left bg-white p-6 rounded-xl shadow-md hover:bg-gray-50 transition">
+                        <span class="font-bold">Apakah produk ini tersedia dalam berbagai ukuran?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-white p-6 rounded-b-xl">
+                        <p>Ya, produk kami tersedia dalam 3 ukuran:<br>
+                        - S (Ukuran A-B)<br>
+                        - M (Ukuran B-C)<br>
+                        - L (Ukuran C-D)<br>
+                        Silakan konsultasikan ukuran yang tepat untuk Anda melalui WhatsApp kami.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left bg-white p-6 rounded-xl shadow-md hover:bg-gray-50 transition">
+                        <span class="font-bold">Bagaimana jika produk tidak sesuai dengan ekspektasi?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-white p-6 rounded-b-xl">
+                        <p>Kami menawarkan garansi 7 hari pengembalian uang jika produk tidak sesuai deskripsi. Silakan hubungi customer service kami melalui WhatsApp untuk proses pengembalian.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="mb-6 text-lg">Masih ada pertanyaan? Hubungi kami via WhatsApp</p>
+                <a href="https://wa.me/6285880343981" class="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg inline-block hover:opacity-90 transition zoom-on-hover">
+                    <i class="fab fa-whatsapp mr-2"></i> Chat Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 gold-gradient text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 heading-font">Siap Tampil Percaya Diri dengan <span class="text-white">Adhesive Push-up Bra?</span></h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Jangan lewatkan kesempatan memiliki bra revolusioner ini dengan harga spesial hari ini!</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://maya.orderonline.id/adhesive-push-up-bra-nw" class="bg-white text-amber-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition zoom-on-hover">
+                    Beli Sekarang - Rp159.000
+                </a>
+                <a href="https://wa.me/6285880343981" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-amber-600 transition zoom-on-hover">
+                    Konsultasi Ukuran
+                </a>
+            </div>
+            
+            <div class="mt-8 bg-white bg-opacity-20 p-4 rounded-lg inline-block">
+                <div class="flex items-center">
+                    <i class="fas fa-exclamation-circle mr-2"></i>
+                    <span>Promo berakhir dalam: <span id="countdown2-hours">12</span> jam <span id="countdown2-minutes">45</span> menit</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 heading-font gold-text"></h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-tiktok text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 opacity-0 invisible">
+        <div class="modal-content bg-white rounded-lg max-w-4xl w-full p-4 relative">
+            <button onclick="closeModal()" class="absolute -top-4 -right-4 bg-amber-500 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-amber-600 transition">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="modal-image" src="" alt="Product Image" class="w-full h-auto max-h-[80vh] object-contain">
+        </div>
+    </div>
+
+    <!-- Exit Intent Popup -->
+    <div id="exit-popup" class="modal fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 opacity-0 invisible">
+        <div class="modal-content bg-white rounded-lg max-w-md w-full p-6 relative">
+            <button onclick="closeExitPopup()" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3 class="text-2xl font-bold mb-4 heading-font">Tunggu Dulu!</h3>
+            <p class="mb-4">Dapatkan diskon spesial 10% untuk pembelian pertama Anda hari ini!</p>
+            <p class="text-sm text-gray-500 mb-4">Masukkan email Anda untuk menerima kode diskon:</p>
+            <form class="mb-4">
+                <input type="email" placeholder="Alamat email Anda" class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-2">
+                <button type="button" onclick="submitDiscount()" class="gold-gradient text-white w-full py-3 rounded-lg font-bold hover:opacity-90 transition">Dapatkan Diskon</button>
+            </form>
+            <p class="text-xs text-gray-500">Dengan mendaftar, Anda menyetujui syarat dan ketentuan kami.</p>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Sticky Navbar on Scroll
+        const navbar = document.querySelector('.sticky-nav');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Countdown Timer
+        function updateCountdown() {
+            let hours = document.getElementById('hours');
+            let minutes = document.getElementById('minutes');
+            let seconds = document.getElementById('seconds');
+            
+            let hours2 = document.getElementById('countdown2-hours');
+            let minutes2 = document.getElementById('countdown2-minutes');
+            
+            let timeLeft = 12 * 60 * 60; // 12 hours in seconds
+            
+            const timer = setInterval(() => {
+                timeLeft--;
+                
+                const h = Math.floor(timeLeft / 3600);
+                const m = Math.floor((timeLeft % 3600) / 60);
+                const s = timeLeft % 60;
+                
+                hours.textContent = h.toString().padStart(2, '0');
+                minutes.textContent = m.toString().padStart(2, '0');
+                seconds.textContent = s.toString().padStart(2, '0');
+                
+                hours2.textContent = h.toString().padStart(2, '0');
+                minutes2.textContent = m.toString().padStart(2, '0');
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                }
+            }, 1000);
+        }
+        
+        updateCountdown();
+        
+        // FAQ Accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+        
+        // Image Modal
+        function openModal(src) {
+            const modal = document.getElementById('image-modal');
+            const modalImg = document.getElementById('modal-image');
+            
+            modalImg.src = src;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('image-modal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Exit Intent Popup
+        let exitIntentShown = false;
+        
+        function showExitPopup() {
+            if (!exitIntentShown) {
+                const popup = document.getElementById('exit-popup');
+                popup.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                exitIntentShown = true;
+            }
+        }
+        
+        function closeExitPopup() {
+            const popup = document.getElementById('exit-popup');
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        function submitDiscount() {
+            alert('Terima kasih! Kode diskon telah dikirim ke email Anda.');
+            closeExitPopup();
+        }
+        
+        // Track mouse movement for exit intent
+        document.addEventListener('mouseout', (e) => {
+            if (!e.toElement && !e.relatedTarget) {
+                setTimeout(showExitPopup, 1000);
+            }
+        });
+        
+        // Lazy loading for images
+        document.addEventListener('DOMContentLoaded', function() {
+            let lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+            
+            if ('IntersectionObserver' in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.classList.remove('lazy');
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
